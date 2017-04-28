@@ -356,8 +356,6 @@ void zad4(){
     for (int i=0;i<n;i++)
         *(tab+i) = (rand() % 101)*0.01;
         
-	 cout << "Tablica tab:\n"; //komunikat, ktora tablice wyswietlamy
-    wyswietl_tablice(tab,n); //wyswietlamy tablice tab
     //3) wywolujemy funkcje filtruj:
     filtruj(tab,tab_f,n,k);
  
